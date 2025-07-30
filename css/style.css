@@ -1,0 +1,33 @@
+
+
+div #hider{
+    margin:0;
+
+}
+p span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-overflow: initial;
+}
+div #input{
+    border:none;
+    background-color: transparent;
+    border-bottom:3px solid green;
+    border-radius:none;
+   
+}
+#carrocel{
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.627)50%, rgba(0, 0, 0, 0.635)50%), url('../img/6.png');
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    position: relative;
+    margin-bottom:3%;
+    padding: 13%;
+}
+#paragrafo{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

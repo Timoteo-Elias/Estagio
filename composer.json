@@ -1,0 +1,19 @@
+{
+    "name": "elias/estagio",
+    "description": "gestão de estagiarios",
+    "type": "project",
+    "require": {
+        "dompdf/dompdf": "^3.0"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Elias\\Estagio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "timoteo elia"
+        }
+    ]
+}

@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)70%, rgba(0,0,0,0.5)70%), url(Photos/ima.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.conteiner{
+    position: relative;
+    overflow: hidden;
+}
+.borda{
+    display: flex;
+    margin: auto;
+    width: 850px;
+    height: 600px;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.imagem{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.texto{
+    padding-top: 45%;
+    padding-left: 6%;
+    width: 60%;
+    height: 35%;
+    justify-content: space-evenly;
+    animation: slides .4s linear .4s backwards;
+   
+}
+@keyframes slides{0%
+    {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+}
+h1{
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 35px;
+    color:aqua;
+    padding: 7px;
+}
+
+p{
+    background-color: rgba(0,0,0,0.5);
+    text-align: justify;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    padding: 5px;
+}
+
+#prev,   #next{
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+
+.borda{
+    display: none;
+}
+.borda.active{
+    display: block;
+}
+ #prev{
+    left: 50px;
+}
+  #next{
+    right: 15px;
+}
+
+#prev:hover,   #next:hover{
+   background-color: rgb(81, 255, 0);
+   transition: 2s;
+}
+
+.conteiner .borda:nth-child(1) .imagem{
+    background: url(Photos/fnl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(2) .imagem{
+    background: url(Photos/ps.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.conteiner .borda:nth-child(3) .imagem{
+    background: url(Photos/pm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.conteiner .borda:nth-child(4) .imagem{
+    background-image: url(photos/ft.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.conteiner .borda:nth-child(5) .imagem{
+    background: url(Photos/prc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(6) .imagem{
+    background: url(Photos/pc1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.conteiner .borda:nth-child(7) .imagem{
+    background: url(Photos/casap2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.conteiner .borda:nth-child(8) .imagem{
+    background: url(Photos/p1c2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(9) .imagem{
+    background: url(Photos/p2c1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(10) .imagem{
+    background: url(Photos/p2c3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(11) .imagem{
+    background: url(Photos/p2c5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(12) .imagem{
+    background: url(Photos/cl1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(13) .imagem{
+    background: url(Photos/cl4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(14) .imagem{
+    background: url(Photos/cl5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(15) .imagem{
+    background: url(Photos/cl6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(16) .imagem{
+    background: url(Photos/cl7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.conteiner .borda:nth-child(17) .imagem{
+    background: url(Photos/cl8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.conteiner .borda:nth-child(18) .imagem{
+    background: url(Photos/cl9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.conteiner .borda:nth-child(19) .imagem{
+    background: url(Photos/fml.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.conteiner .borda:nth-child(20) .imagem{
+    background: url(Photos/fm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}

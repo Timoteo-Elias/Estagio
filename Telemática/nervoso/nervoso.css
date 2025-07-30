@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Photos/jo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.conteiner{
+    position: relative;
+    overflow: hidden;
+}
+.borda{
+    display: flex;
+    margin: auto;
+    width: 850px;
+    height: 600px;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.imagem{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.texto{
+    padding-top: 45%;
+    padding-left: 6%;
+    width: 60%;
+    height: 35%;
+    justify-content: space-evenly;
+    animation: slides .4s linear .4s backwards;
+   
+}
+.borda{
+    display: none;
+}
+.borda.active{
+    display: block;
+}
+
+@keyframes slides{0%
+    {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+}
+h1{
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 35px;
+    color:aqua;
+    padding: 7px;
+}
+
+p{
+    background-color: rgba(0,0,0,0.5);
+    text-align: justify;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    padding: 5px;
+}
+
+#prev,   #next{
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+#prev{
+    left: 50px;
+}
+  #next{
+    right: 15px;
+}
+
+#prev:hover,   #next:hover{
+   background-color: rgb(60, 255, 0);
+   transition: 2s;
+}
